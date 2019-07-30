@@ -18,18 +18,13 @@ Following the udacity code of conduct, I hareby declare that I have used the fol
 ## Install instructions
 
 - Clone this repository
-- Install vagrant
-- Install VirtualBox
-- CD to the restaurants folder ( the one you just cloned)
-- Run vagrant up
-- Run vagrant ssh (if it by some reason asks for a password, it is vagrant)
-- inside vagrant, navigate to the /vagrant folder
-- inside vagrant, install pip for python 2 ( https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/ )
-- inside vagrant, install flask with pip (pip install flask )
-- inside vagrant, install sqlalchemy with pip (pip install sqlalchemy )
-- inside vagrant, install google-auth with pip ( pip install --upgrade google-auth )
-- inside vagrant, install requests with pip ( pip install requests )
-- inside vagrant type python database_setup.py to initialize the database.
+- navigate to the /vagrant folder
+- install pip for python 2 ( https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/ )
+- install flask with pip (pip install flask )
+- install sqlalchemy with pip (pip install sqlalchemy )
+- install google-auth with pip ( pip install --upgrade google-auth )
+- install requests with pip ( pip install requests )
+- type python database_setup.py to initialize the database.
 - run python project.py
 
 Project is now available at http://localhost:5000
